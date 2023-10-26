@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 700;
+}
+/* ----- Navbar start ----- */
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar .navbar-nav .nav-item a{
+    font-size: 18px;
+    margin: 5px 15px;
+    color: #292930;
+    /* position: relative; */
+}
+/* ------ Navbar End ------- */
+
+/* ------ hero-section start ------- */
+
+.hero-section{
+    background-image: url(images/banner-bg.jpg.webp);
+}
+.hero-section .hero-content span{
+    color: #0093df;
+}
+.hero-btn a{
+    background: #0093df;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: 500;
+}
+.hero-btn a:hover{
+    background-color: #fff;
+    color: #0093df;
+}
+/* ------ hero-section end ------- */
+
+
+/* ------ Pilates section start ----- */
+.pilate .card .card-img{
+    overflow: hidden;
+}
+.pilate .card:hover img{
+    scale: 1.2;
+    transition: all 0.3s;
+}
+/* ------ Pilates section end ----- */
