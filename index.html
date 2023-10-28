@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness</title>
+    <title>Home | Fitness</title>
       <!---- Bootstrap CSS ---->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+      <!-- owl carousel css for testimonial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+      <!---- Custon CSS ------>
       <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +22,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -67,7 +73,7 @@
                     <h2>WHAT IS PILATES</h2>
                 </div>
                 <div class="row py-5">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-9 mx-auto mb-4 mb-lg-0">
                         <div class="card h-100 border-0">
                             <div class="card-img">
                             <img src="images/YAELINMOTION-24.jpeg" class="card-img-top img-fluid" alt="...">
@@ -77,17 +83,21 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-9 mx-auto mb-4 mb-lg-0">
                         <div class="card h-100 border-0">
+                          <div class="card-img">
                             <img src="images/yjreformercolor.jpg" class="card-img-top img-fluid" alt="...">
+                          </div>
                             <div class="card-body">
                               <p class="card-text">During a session, you will be led through a series of carefully designed and choreographed mat-based exercises, along with utilizing Pilates equipment like the Reformer, Cadillac, and Wunda Chair. You will learn to incorporate breathing techniques to build overall body awareness.</p>
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-9 mx-auto">
                         <div class="card h-100 border-0">
+                          <div class="card-img">
                             <img src="images/img_1.jpg.webp" class="card-img-top img-fluid" alt="...">
+                          </div>
                             <div class="card-body">
                               <p class="card-text">Step-by-step guidance, instruction and hands-on adjustments are constant throughout the practice to ensure proper alignment and muscle engagement.  Maintaining the integrity of movement leads to a strong foundation and optimal results.</p>
                             </div>
@@ -104,8 +114,102 @@
         </section>
         <!------ Pilates section end ------>
 
+        <!------ Approach section start ------>
+        <section class="approach py-5 bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="approach-img">
+                  <img src="images/YAELINMOTION-93.jpg" alt="" class="">
+                </div>
+              </div>
+              <div class="col-lg-8 align-self-center">
+                <h2 class="text-center text-white">MY APPROACH</h2>
+                <p class="pt-3">I am here for you however you choose to identify. I love teaching all shapes, abilities, ages, prenatal, and postnatal. I support all BIOPIC and LGBTQIA+ and all other humans.</p>
+                <p class="pt-3">While I am classically trained in Pilates, I have studied many other modalities throughout my teaching years and love to integrate them into my curriculum. I incorporate bands, small props, and even light weights with breathwork to create the most whole-body experience. I will teach you patience, and intuition. I will always scale movement appropriately to ensure focus is aligned with the goal. My mission is to build not only trust between us but also teach you how to trust yourself.</p>
+                <p class="pt-3">I am dedicated to crafting and creating exercise plans that will push you to move better in our sessions, but more importantly in life. I will listen, and put your thoughts first. This is foremost your practice and I am here to support you. This is a practice we do together.</p>
+                <p class="pt-3">My goal is always to help you feel confident and strong in your movement. I love people and I love movement and to create a space where both come together is my passion. I am excited to share that with you. </p>
+              </div>
+              <div class="col-12 text-center">
+                <div class="hero-btn">
+                    <a href="" class="btn mt-4">Schedule Your Session</a>
+                </div>
+            </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!------ Approach section end ------>
+
+        <!----- our testimonial section start -->
+        <section class="our-testimonial bg-light py-5">
+          <div class="container py-4">
+            <div class="row text-center">
+              <h2 class="pb-3">OUR TESTIMONIAL</h2>
+            </div>
+            <div class="row shadow" data-aos="fade-up" data-aos-duration="1200">
+              <div class="col-lg-5 align-self-center">
+                <div class="stadium-img pe-md-4 align-self-lg-center">
+                  <img class="img-fluid" src="images/YAELINMOTION-29.jpeg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="owl-carousel-1 owl-carousel owl-theme d-block">
+                  <div class="item">
+                      <div class="ps-3">
+                      <h3 class="title pt-3">
+                        How to Playing Football Game This Week.
+                      </h3>
+                      <p class="f-15 mt-4">Through working with Yael the last 2 years (I think) I have eliminated chronic back and knee pain entirely.  You will not find anyone more conscientious and knowledgeable about how the body functions and how  creative her workouts achieve results.  Since working with Yael, I am so much stronger, have better flexibility, balance as well as my endurance level is what it was 20 years ago.  I trust Yael entirely and  she has surpassed by expectations, therefore I  can highly recommend Yael  to anyone who wants to work with the BEST.  -Karen</p>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="ps-3">
+                      <h3 class="title pt-3">
+                        How to Playing Football Game This Week.
+                      </h3>
+                      <p class="f-15 mt-4">I am incredibly grateful to work with Yael, whose knowledge and patience have made a huge difference in my fitness journey.  She tailors each session to your needs - focusing on areas of improvement and being mindful of limitations/injuries Her motivating approach and encouragement have me looking forward to each workout. Yael invests in you to help you grow and see the impact you're looking to achieve! -Haylea</p>
+                      </div>
+                    </div>
+
+                </div> 
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <!----- our testimonial section end -->
+
 
     <!---- Bootstrap JS ---->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+     <!----- owl carousel js for testimonial ----->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel-1').owlCarousel({
+             loop:true,
+             nav:false,
+             responsiveClass:true,
+             responsive:{
+               1024:{
+                 items:1,
+                 loop:true
+               },
+               768:{
+                   items:1,
+               },
+               425:{
+                   items:1,
+               },
+               320: {
+                   items: 1,
+               },  
+             },
+           });
+    </script>
 </body>
 </html>
