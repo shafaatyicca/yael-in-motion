@@ -9,6 +9,10 @@ h1{
 h2{
     font-weight: 700;
 }
+p{
+    color:#bdb7b7;
+    font-size: 16px;
+}
 /* ----- Navbar start ----- */
 .navbar{
     position: absolute;
@@ -56,3 +60,12 @@ h2{
     transition: all 0.3s;
 }
 /* ------ Pilates section end ----- */
+
+
+/* ------ Approach section start ----- */
+
+.approach .approach-img img{
+    width: 100%;
+}
+
+/* ------ Approach section end ----- */
