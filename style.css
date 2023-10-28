@@ -69,3 +69,11 @@ p{
 }
 
 /* ------ Approach section end ----- */
+
+/*----- our testimonial section start -->-- */
+.shadow{
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: #fff;
+    padding: 20px 20px 32px;
+}
+/*----- our testimonial section end -->-- */
