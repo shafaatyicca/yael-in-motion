@@ -15,6 +15,10 @@ h3{
     font-weight: 700;
     font-size: 40px;
 }
+p{
+    color:#bdb7b7;
+    font-size: 16px;
+}
 /* ----- Navbar start ----- */
 .navbar{
     position: absolute;
@@ -63,30 +67,19 @@ h3{
 }
 /* ------ Pilates section end ----- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------- Schedule-section -----------------------------------*/
+/* ------ Approach section start ----- */
+
+.approach .approach-img img{
+    width: 100%;
+}
+
+/* ------ Approach section end ----- */
+
+/*----- our testimonial section start -->-- */
+.shadow{
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: #fff;
+    padding: 20px 20px 32px;
+}
+/*----- our testimonial section end -->-- */
