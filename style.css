@@ -62,17 +62,28 @@ p{
 .pilate .card .card-img{
     overflow: hidden;
 }
-.pilate .card:hover img{
-    scale: 1.2;
-    transition: all 0.3s;
+.card-img-top{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.pilate .card:hover .card-img-top{
+    transform:scale(1.1);
 }
 /* ------ Pilates section end ----- */
 
 /*--------------------------------------- Schedule-section -----------------------------------*/
 /* ------ Approach section start ----- */
 
-.approach .approach-img img{
-    width: 100%;
+.parrallax{
+    background-image: url(images/YAELINMOTION-93.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.approach{
+background-color: rgba(0,0,0,0.65);
+
 }
 
 /* ------ Approach section end ----- */
