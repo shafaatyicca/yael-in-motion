@@ -5,9 +5,15 @@
 }
 h1{
     font-weight: 800;
+    font-size: 60px;
 }
 h2{
     font-weight: 700;
+    font-size: 45px;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
 }
 /* ----- Navbar start ----- */
 .navbar{
@@ -56,3 +62,31 @@ h2{
     transition: all 0.3s;
 }
 /* ------ Pilates section end ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- Schedule-section -----------------------------------*/
