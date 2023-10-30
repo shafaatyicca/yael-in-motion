@@ -5,9 +5,15 @@
 }
 h1{
     font-weight: 800;
+    font-size: 60px;
 }
 h2{
     font-weight: 700;
+    font-size: 45px;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
 }
 p{
     color:#bdb7b7;
@@ -61,7 +67,7 @@ p{
 }
 /* ------ Pilates section end ----- */
 
-
+/*--------------------------------------- Schedule-section -----------------------------------*/
 /* ------ Approach section start ----- */
 
 .approach .approach-img img{
