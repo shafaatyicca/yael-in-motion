@@ -16,8 +16,9 @@ h3{
     font-size: 40px;
 }
 p{
-    color:#bdb7b7;
+    color:#5c5c5c;
     font-size: 16px;
+    line-height: 25px;
 }
 /* ----- Navbar start ----- */
 .navbar{
