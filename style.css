@@ -29,9 +29,15 @@ p{
 }
 .navbar .navbar-nav .nav-item a{
     font-size: 18px;
+    font-weight: 500;
     margin: 5px 15px;
-    color: #292930;
-    /* position: relative; */
+    color: #fff;
+}
+.navbar .nav-item a:hover{
+    color: #0093df;
+}
+.navbar .nav-item a.active{
+    color: #0093df;
 }
 /* ------ Navbar End ------- */
 
