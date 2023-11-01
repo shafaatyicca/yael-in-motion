@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+      <!---- Bootstrap CSS ---->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <!----- font awesome cdn ---->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png.webp" alt="" width="120px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="service-page.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--- Navbar end ---->
+
+    <!---- Hero Section Start ------>
+    <section class="hero-section service">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <div class="hero-content">
+                        <h1><span>CONTACT</span> US</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!----- Hero Section End ----->
+
+         <!----- Start contact section ----->
+    <section class="contact py-5">
+        <div class="container">
+          <div class="row">
+            <div class="row justify-content-center py-4">
+              <div class="col-lg-6" data-aos="fade-up"
+              data-aos-duration="1200">
+                <h3 class="title text-center">Keep In <span class="price-span">Touch  </span></h3>
+                <p class="text-center">you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up"
+            data-aos-duration="1200">
+              <div class="form">
+                <form id="contact-form" class="" method="POST" action="mail.php">
+                  <div class="row">
+                    <div class="form-group col-lg-6">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="required">
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="email" name="email" class="form-control" id="form_email" placeholder="Your Email" required="required">
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone" required="required">
+                    </div>
+                    
+                    <div class="form-group col-lg-6">
+                      <input type="text" name="subject" class="form-control" id="subject" placeholder="Your Subject" required="required">
+                    </div>
+                    
+                    <div class="form-group col-lg-12">
+                      <textarea rows="6" name="message" class="form-control" id="message" placeholder="Your Message" required="required"></textarea>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="contact-btn">
+                        <button type="submit" value="Submit Now" name="submit" id="submitButton" class="text-white" title="Submit Your Message!">Send Message</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 pt-lg-0 pt-5" data-aos="fade-up"
+            data-aos-duration="1200">
+              <div class="contact-info">
+                <div class="contact-details d-flex">
+                  <div class="contact-icon">
+                    <i class="fa fa-home"></i>
+                  </div>
+                  <div class="contact-address">
+                    <h5>Address Location</h5>
+                    <p>1 Grafton Street, Dublin Ireland University.</p>
+                  </div>
+                </div>
+                <div class="contact-details d-flex">
+                  <div class="contact-icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="contact-address">
+                    <h5>Phone Number</h5>
+                    <p>+135 773 321 4442</p>
+                  </div>
+                </div>
+                <div class="contact-details d-flex">
+                  <div class="contact-icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="contact-address">
+                    <h5>Mail Address</h5>
+                    <p>demo@example.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----- End contact section ----->
+
+
+
+    <!---- Bootstrap JS ---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
