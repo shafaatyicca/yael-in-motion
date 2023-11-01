@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     font-weight: 800;
@@ -13,7 +14,6 @@ h2{
 }
 h3{
     font-weight: 700;
-    font-size: 30px;
 }
 p{
     color:#5c5c5c;
@@ -91,9 +91,7 @@ p{
 }
 .approach{
 background-color: rgba(0,0,0,0.65);
-
 }
-
 /* ------ Approach section end ----- */
 
 /*----- our testimonial section start -->-- */
@@ -102,4 +100,29 @@ background-color: rgba(0,0,0,0.65);
     background: #fff;
     padding: 20px 20px 32px;
 }
-/*----- our testimonial section end -->-- */
+/*----- our testimonial section end ----- */
+
+
+/*----- media query -----*/
+@media only screen and (max-width:768px){
+    h1{
+        font-size:44px;
+    }
+    h2{
+        font-size: 34px;
+    }
+    .navbar .navbar-nav{
+        background-color: #1f1e1e;
+        width: 100%;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 20px;
+    }
+}
+@media only screen and (max-width:425px){
+    h1{
+        font-size:36px;
+    }
+    h2{
+        font-size: 29px;
+    }
+}
