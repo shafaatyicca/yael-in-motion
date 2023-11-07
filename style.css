@@ -9,13 +9,19 @@
 h1{
     font-weight: 800;
     font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #1f232c;
 }
 h2{
     font-weight: 700;
     font-size: 40px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #1f232c;
 }
 h3{
     font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #1f232c;
 }
 p{
     color:#5c5c5c;
