@@ -23,6 +23,10 @@ h3{
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     color: #1f232c;
 }
+h4{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #1f232c;
+}
 p{
     color:#5c5c5c;
     font-size: 16px;
@@ -91,7 +95,7 @@ p{
 }
 /* ------ Pilates section end ----- */
 
-/*--------------------------------------- Schedule-section -----------------------------------*/
+
 /* ------ Approach section start ----- */
 
 .parrallax{
@@ -119,6 +123,86 @@ background-color: rgba(0,0,0,0.65);
     background-color: #5c5c5c;
 }
 /* ----- About-US Page section end---- */
+
+
+/* ----- Service-Page section start---- */
+
+.service{
+    padding: 170px 0;
+}
+.service-centent{
+    padding: 50px 0;
+}
+.service-centent img{
+    border-radius: 10px;
+}
+
+/* Accordion Section */
+.accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border: 0px !important;
+    border-radius: 0.5rem;
+    /* background: linear-gradient(111.23deg, #e9f7ff 9.95%, #ffdbd5 85.17%); */
+    /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25); */
+  }
+  .accordion-item-header {
+    padding: 20px 24px 10px 54px;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header h5{
+    font-size: 18px;
+  }
+  .accordion-item-header::after {
+    content: "\203a";
+    color: #006478;
+    font-size: 40px;
+    position: absolute;
+    left: 24px;
+    top: 45%;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+  .accordion-item-header.active::after {
+    content: "\203a";
+    transform: rotate(90deg);
+  }
+  .accordion-item-body {
+    padding: 0px 22px 0px 22px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    line-height: 1.5rem;
+    color: #555555;
+  }  
+
+  /* ----- Service-Page section end---- */
+
+  /*---- Schedule-page CSS Start -----*/
+
+.information-section .card{
+    border-radius: 15px;
+}
+.information-section .card-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #5c5c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+/*---- Schedule-page CSS end -----*/
 
 /* ---- contact-us section start */
 .contact{
@@ -181,27 +265,6 @@ background-color: rgba(0,0,0,0.65);
     line-height: 17px;
 }
 /* ---- contact-us section end */
-
-
-/* Schedule-page CSS Start*/
-
-.information-section .card{
-    border-radius: 15px;
-}
-.information-section .card-icon{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #5c5c5c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    color: white;
-}
-.information-section .card-body p{
-    color: #d0d0d0;
-}
 
 /*---- footer start ----*/
 .footer ul {

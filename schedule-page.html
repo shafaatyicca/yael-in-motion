@@ -6,11 +6,16 @@
     <title>Schedule-page</title>
       <!---- Bootstrap CSS ---->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="service.css">
-
+      
       <!-- fontawesome -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+          <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      
+      <!-- Custom css -->
+      <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -49,7 +54,8 @@
     <section class="hero-section service">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center" data-aos="fade-up"
+                data-aos-duration="1200">
                     <div class="hero-content">
                         <h1>OUR <span>SCHEDULE</span></h1>
                     </div>
@@ -62,22 +68,24 @@
 
                 <!-- YOUR SESSIONS WILL BE…. section start -->
 
-                <section class="bg-dark your-session-section text-white py-5">
+                <section class="your-session-section bg-dark py-5">
                     <div class="container">
-                        <div class="row py-3">
-                            <div class="col-lg-6">
-                                <div class="">
+                        <div class="row py-3 bg-light">
+                            <div class="col-lg-6" data-aos="fade-right"
+                            data-aos-duration="1200">
+                                <div class="text-center">
                                     <img src="images/client-left.png.webp" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6 align-self-center">
-                                <h3 class="text-white">YOUR <span>SESSIONS</span> WILL BE….</h3>
+                            <div class="col-lg-6 align-self-center mt-5 mt-lg-0" data-aos="fade-up"
+                            data-aos-duration="1200">
+                                <h3>YOUR <span>SESSIONS</span> WILL BE….</h3>
                                 <div class="row py-4">
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12 ">
                                         <h4>PERSONALIZED</h4>
                                         <p>Our initial sessions will be dedicated to assessing your current needs and creating a personalized plan to fit your unique goals.</p>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12 mt-3 mt-md-0">
                                         <h4>INTEGRATED</h4>
                                         <p>We are not just our bodies, our emotions or our thoughts.  We are all of those things put together. I’ll work closely with you to integrate everything that makes you, YOU</p>
                                     </div>
@@ -96,63 +104,64 @@
 
         <!-- information section -->
 
-        <section class="information-section bg-light pb-5">
+        <section class="information-section py-5">
             <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-12 text-white text-center py-4">
-                    <h2 class="text-dark">INFOMATION</h2>
+              <div class="row justify-content-center" data-aos="fade-up"
+              data-aos-duration="1200">
+                <div class="col-12  text-center py-4">
+                    <h2 class="">INFOMATION</h2>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="card bg-dark py-4 h-100">
-                    <div class="card-header bg-transparent border-0">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card border-0 bg-light pt-3 h-100">
+                    <div class="card-header bg-transparent d-flex justify-content-center border-0">
                         <div class="card-icon">
-                            <img src="images/icon-1.jpeg" class="img-fluid" alt="">
+                            <img src="images/pricing.png" class="w-50 h-50" alt="">
                         </div>                      
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title text-white py-3">Pricing</h4>
-                        <p class="card-text">Sessions are 55 minutes and are $95 a session.  I do not offer packages.  I am happy to travel to your home for $125 a session.  </p>
+                        <h4 class="card-title text-center py-2">Pricing</h4>
+                        <p class="card-text">Sessions are 55 minutes and are $95 a session.  I do not offer packages.  I am happy to travel to your home for $125 a session.</p>
 
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-                    <div class="card bg-dark py-4 h-100">
-                      <div class="card-header bg-transparent border-0">
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="card border-0 bg-light pt-3 h-100">
+                      <div class="card-header bg-transparent d-flex justify-content-center border-0">
                           <div class="card-icon">
-                              <i class="fas fa-dollar-sign"></i>
+                            <img src="images/tardiness.png" class="w-50 h-50" alt="">
                           </div>                      
                       </div>
                       <div class="card-body">
-                          <h4 class="card-title text-white py-3">Tardiness</h4>
+                          <h4 class="card-title text-center py-2">Tardiness</h4>
                           <p class="card-text"> If you are going to be late and are able to text me, please do.  I have no problem if you are late, but cannot extend your session and will finish at the scheduled time.  As in, you will get a shorter lesson.</p>
   
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-                    <div class="card bg-dark py-4 h-100">
-                      <div class="card-header bg-transparent border-0">
+                  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="card border-0 bg-light pt-3 h-100">
+                      <div class="card-header bg-transparent d-flex justify-content-center border-0">
                           <div class="card-icon">
-                              <i class="fas fa-dollar-sign"></i>
+                            <img src="images/end.png" class="w-50 h-50" alt="">
                           </div>                      
                       </div>
                       <div class="card-body">
-                          <h4 class="card-title text-white py-3">My End</h4>
-                          <p class="card-text">I am the primary caregiver for two young humans.  Very infrequently, things come up in my life that are beyond my control.  I will always give you notice if I have to cancel and will do everything I can to reschedule you that same week. </p>
+                          <h4 class="card-title text-center py-2">My End</h4>
+                          <p class="card-text">I am the primary caregiver for two young humans.  Very infrequently, things come up in my life that are beyond my control.  I will always give you notice if I have to cancel and will do everything I can to reschedule you that same week.</p>
   
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="card bg-dark py-4 h-100">
-                      <div class="card-header bg-transparent border-0">
+                  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="card border-0 bg-light pt-3 h-100">
+                      <div class="card-header bg-transparent d-flex justify-content-center border-0">
                           <div class="card-icon">
-                              <i class="fas fa-dollar-sign"></i>
+                            <img src="images/cancellation.png" class="w-50 h-50" alt="">
                           </div>                      
                       </div>
                       <div class="card-body">
-                          <h4 class="card-title text-white py-3">Cancellations</h4>
+                          <h4 class="card-title text-center py-2">Cancellations</h4>
                           <p class="card-text">Please give me 24 hour notice if you’re going to cancel.  I know life happens, but please be respectful of my time and other clients.  If this becomes a recurring problem (2x) I will charge you for the cost of the entire session(s) missed.  If you are unable to give me more than 24 hours notice, I will charge you for half of the session. </p>
   
                       </div>
@@ -167,7 +176,8 @@
     <!----- Footer  start ------>
     <footer class="footer bg-dark pt-5">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up"
+        data-aos-duration="1200">
         <div class="footer-col col-md-3 mb-3 mb-md-0">
           <h4>company</h4>
           <ul>
@@ -180,11 +190,11 @@
         <div class="footer-col col-md-3 mb-3 mb-md-0">
           <h4>Quick LInks</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="service-page.html">Services</a></li>
+            <li><a href="schedule-page.html">Schedule</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-md-3 footer-col mb-3 mb-md-0">
@@ -243,5 +253,11 @@
         
     <!---- Bootstrap JS ---->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- js for aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
