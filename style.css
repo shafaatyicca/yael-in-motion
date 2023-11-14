@@ -56,6 +56,9 @@ p{
 .navbar .navbar-toggler{
     border: none;
 }
+.navbar .navbar-brand img{
+    margin-top: -18px;
+}
 /* ------ Navbar End ------- */
 
 /* ------ hero-section start ------- */
@@ -363,6 +366,6 @@ background-color: rgba(0,0,0,0.65);
         font-size:36px;
     }
     h2{
-        font-size: 29px;
+        font-size: 27px;
     }
 }
