@@ -1,409 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Yael-In-Motion</title>
-    <link rel="icon" type="image/x-icon" href="images/logo-yael.png">
-    <!---- Bootstrap CSS ---->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home | Yael-In-Motion</title>
+<link rel="icon" type="image/x-icon" href="images/logo-yael.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <!-- owl carousel css for testimonial -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-
-    <!-- aos animation -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!----- font awesome cdn ---->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!---- Custom CSS ------>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><img src="images/logo-yael.png" alt="" width="120px"/></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="service-page.html"
-                >Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="schedule-page.html">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact-us.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--- Navbar end ---->
-
-    <!---- Hero Section Start ------>
-    <section class="hero-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 order-1 order-md-0" data-aos="fade-right"
-          data-aos-duration="1200">
-            <img src="images/yjbwback.png" alt="" class="img-fluid" />
-          </div>
-          <div class="col-md-6 align-self-center mt-5 mt-md-0 py-5 py-md-0 order-0" data-aos="fade-up"
-          data-aos-duration="1200">
-            <div class="hero-content mt-5 mt-md-0">
-              <h2>PILATES EDUCATION</h2>
-              <h1><span>DESIGNED</span> FOR YOU</h1>
-              <div class="hero-btn">
-                <a href="service-page.html" class="btn mt-4">Get Started</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----- Hero Section End ----->
-
-    <!------ Pilates section start ----->
-    <section class="pilate py-5 bg-light">
-      <div class="container" data-aos="fade-up"
-      data-aos-duration="1200">
-        <div class="row text-center">
-          <h2>WHAT IS PILATES</h2>
-        </div>
-        <div class="row py-5">
-          <div class="col-lg-4 col-md-6 mx-auto mb-4 mb-lg-0" data-aos="fade-up"
-          data-aos-duration="1200">
-            <div class="card h-100 border-0">
-              <div class="card-img">
-                <img
-                  src="images/YAELINMOTION-24.jpeg"
-                  class="card-img-top img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body border-5">
-                <p class="card-text">
-                  In an individual Pilates session, you can expect a tailored
-                  and whole-body approach to movement. One that emphasizes
-                  building a stable foundation, improving posture, and
-                  increasing overall flexibility and mobility. Each session will
-                  be customized to address specific goals while considering
-                  individual movement patterns, injuries, and general aches and
-                  pains.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mx-auto mb-4 mb-lg-0" data-aos="fade-up"
-          data-aos-duration="1200">
-            <div class="card h-100 border-0">
-              <div class="card-img">
-                <img
-                  src="images/yjreformercolor.jpg"
-                  class="card-img-top img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body border-5">
-                <p class="card-text">
-                  During a session, you will be led through a series of
-                  carefully designed and choreographed mat-based exercises,
-                  along with utilizing Pilates equipment like the Reformer,
-                  Cadillac, and Wunda Chair. You will learn to incorporate
-                  breathing techniques to build overall body awareness.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mx-auto" data-aos="fade-up"
-          data-aos-duration="1200">
-            <div class="card h-100 border-0">
-              <div class="card-img">
-                <img
-                  src="images/YAELINMOTION-29.jpeg"
-                  class="card-img-top img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body border-5">
-                <p class="card-text">
-                  Step-by-step guidance, instruction and hands-on adjustments
-                  are constant throughout the practice to ensure proper
-                  alignment and muscle engagement. Maintaining the integrity of
-                  movement leads to a strong foundation and optimal results.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 text-center">
-            <div class="hero-btn">
-              <a href="service-page.html" class="btn mt-4">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!------ Pilates section end ------>
-
-    <!------ Approach section start ------>
-    <div class="parrallax">
-      <section class="approach py-5">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-10" data-aos="fade-up"
-            data-aos-duration="1200">
-              <h2 class="text-center text-white pt-5 pt-lg-0">MY APPROACH</h2>
-              <p class="pt-3 text-white">
-                I am here for you however you choose to identify. I love
-                teaching all shapes, abilities, ages, prenatal, and postnatal. I
-                support all BIOPIC and LGBTQIA+ and all other humans.
-              </p>
-              <p class="pt-3 text-white">
-                While I am classically trained in Pilates, I have studied many
-                other modalities throughout my teaching years and love to
-                integrate them into my curriculum. I incorporate bands, small
-                props, and even light weights with breathwork to create the most
-                whole-body experience. I will teach you patience, and intuition.
-                I will always scale movement appropriately to ensure focus is
-                aligned with the goal. My mission is to build not only trust
-                between us but also teach you how to trust yourself.
-              </p>
-              <p class="pt-3 text-white">
-                I am dedicated to crafting and creating exercise plans that will
-                push you to move better in our sessions, but more importantly in
-                life. I will listen, and put your thoughts first. This is
-                foremost your practice and I am here to support you. This is a
-                practice we do together.
-              </p>
-              <p class="pt-3 text-white">
-                My goal is always to help you feel confident and strong in your
-                movement. I love people and I love movement and to create a
-                space where both come together is my passion. I am excited to
-                share that with you.
-              </p>
-            </div>
-            <div class="col-12 text-center" data-aos="fade-up"
-            data-aos-duration="1200">
-              <div class="hero-btn">
-                <a href="" class="btn mt-4">Schedule Your Session</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo-yael.png" alt="Yael-In-Motion logo" width="120" class="logo-light"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="service-page.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule-page.html">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
-    <!------ Approach section end ------>
-
-    <!----- our testimonial section start -->
-    <section class="our-testimonial bg-light py-5">
-      <div class="container py-4">
-        <div class="row text-center" data-aos="fade-up"
-        data-aos-duration="1200">
-          <h2 class="pb-3">OUR TESTIMONIAL</h2>
-        </div>
-        <div
-          class="row shadow rounded-4"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-        >
-          <div class="col-lg-5 align-self-center text-center">
-            <div class="pe-md-4">
-              <img
-                class="img-fluid rounded-3"
-                src="images/YAELINMOTION-29.jpeg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="owl-carousel-1 owl-carousel owl-theme">
-              <div class="item">
-                <div class="ps-3">
-                  <h3 class="pt-3">
-                    Overcoming Pain and Reclaiming Strength with Yael's Expert
-                    Guidance
-                  </h3>
-                  <p class="mt-4">
-                    Through working with Yael the last 2 years (I think) I have
-                    eliminated chronic back and knee pain entirely. You will not
-                    find anyone more conscientious and knowledgeable about how
-                    the body functions and how creative her workouts achieve
-                    results. Since working with Yael, I am so much stronger,
-                    have better flexibility, balance as well as my endurance
-                    level is what it was 20 years ago. I trust Yael entirely and
-                    she has surpassed by expectations, therefore I can highly
-                    recommend Yael to anyone who wants to work with the BEST.
-                    -Karen
-                  </p>
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="ps-3">
-                  <h3 class="pt-3">Elevating My Fitness Journey with Yael</h3>
-                  <p class="mt-4">
-                    I am incredibly grateful to work with Yael, whose knowledge
-                    and patience have made a huge difference in my fitness
-                    journey. She tailors each session to your needs - focusing
-                    on areas of improvement and being mindful of
-                    limitations/injuries Her motivating approach and
-                    encouragement have me looking forward to each workout. Yael
-                    invests in you to help you grow and see the impact you're
-                    looking to achieve! -Haylea
-                  </p>
-                </div>
-              </div>
-            </div>
+<!-- Hero -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+        <div class="hero-content">
+          <p class="kicker">Private Pilates education</p>
+          <h1>Move better in session, and in life.</h1>
+          <p class="lead-text">One-on-one Pilates built around your body, your goals and your pace. Mat, Reformer, Cadillac and Wunda Chair.</p>
+          <div class="hero-btn d-flex flex-wrap gap-3 mt-4">
+            <a href="schedule-page.html" class="btn">Book a session</a>
+            <a href="service-page.html" class="btn btn-ghost">See services</a>
           </div>
         </div>
       </div>
-    </section>
-    <!----- our testimonial section end -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+        <div class="hero-photo"><img src="images/yjbwback.png" alt="Yael teaching a Pilates session" class="img-fluid" /></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!----- Footer  start ------>
-    <footer class="footer bg-dark pt-5">
-      <div class="container">
-        <div class="row" data-aos="fade-up"
-        data-aos-duration="1200">
-        <div class="footer-col col-md-3 mb-3 mb-md-0">
-          <h4>company</h4>
-          <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">our services</a></li>
-            <li><a href="#">privacy policy</a></li>
-            <li><a href="#">visit website</a></li>
-          </ul>
+<!-- Quick facts -->
+<section class="facts">
+  <div class="container">
+    <div class="row g-3 text-center">
+      <div class="col-6 col-md-3"><i class="fa-solid fa-user"></i><h3>1-on-1</h3><p>Fully personal sessions</p></div>
+      <div class="col-6 col-md-3"><i class="fa-solid fa-people-group"></i><h3>All bodies</h3><p>Every shape, age and ability</p></div>
+      <div class="col-6 col-md-3"><i class="fa-solid fa-baby"></i><h3>Prenatal &amp; postnatal</h3><p>Safe, scaled movement</p></div>
+      <div class="col-6 col-md-3"><i class="fa-solid fa-heart"></i><h3>Inclusive</h3><p>BIPOC and LGBTQIA+ friendly</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- What is Pilates -->
+<section class="pilate py-5">
+  <div class="container py-4">
+    <div class="section-head text-center" data-aos="fade-up"><h2>What is Pilates?</h2><p>A whole-body method that builds a stable foundation, better posture and easier movement.</p></div>
+    <div class="row g-4 pt-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="card h-100 border-0"><div class="card-img"><img src="images/YAELINMOTION-24.jpeg" class="card-img-top" alt="Individual Pilates session"/></div>
+        <div class="card-body"><h3>Tailored to you</h3><p class="card-text">Each session is customised to your goals, movement patterns, injuries and general aches and pains.</p></div></div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 border-0"><div class="card-img"><img src="images/yjreformercolor.jpg" class="card-img-top" alt="Pilates Reformer"/></div>
+        <div class="card-body"><h3>Mat and equipment</h3><p class="card-text">Choreographed mat work plus the Reformer, Cadillac and Wunda Chair, with breathing techniques for body awareness.</p></div></div>
+      </div>
+      <div class="col-lg-4 col-md-6 mx-md-auto" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 border-0"><div class="card-img"><img src="images/YAELINMOTION-29.jpeg" class="card-img-top" alt="Hands-on alignment adjustment"/></div>
+        <div class="card-body"><h3>Hands-on guidance</h3><p class="card-text">Step-by-step instruction and adjustments keep your alignment and muscle engagement right.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How it works -->
+<section class="steps py-5">
+  <div class="container py-4">
+    <div class="section-head text-center" data-aos="fade-up"><h2>How it works</h2></div>
+    <div class="row g-4 pt-4">
+      <div class="col-md-4" data-aos="fade-up"><div class="step"><span>1</span><h3>Book a session</h3><p>Pick a time on the schedule page or send a message.</p></div></div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"><div class="step"><span>2</span><h3>Share your goals</h3><p>Tell Yael about injuries, aches and what you want to achieve.</p></div></div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200"><div class="step"><span>3</span><h3>Start moving</h3><p>Get a plan built for you, scaled as you grow stronger.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Approach -->
+<div class="parrallax">
+  <section class="approach py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9" data-aos="fade-up">
+          <h2 class="text-center">My approach</h2>
+          <p>I am here for you however you choose to identify. I love teaching all shapes, abilities, ages, prenatal and postnatal. I support all BIPOC and LGBTQIA+ people and all other humans.</p>
+          <p>While I am classically trained in Pilates, I have studied many other modalities and love to integrate them. I use bands, small props and light weights with breathwork for a whole-body experience. I will teach you patience and intuition, and always scale movement to your goal. My mission is to build trust between us, and to teach you to trust yourself.</p>
+          <p>I craft exercise plans that help you move better in our sessions, but more importantly in life. I will listen and put your thoughts first. This is your practice, and we do it together.</p>
+          <p>My goal is to help you feel confident and strong in your movement. I love people and I love movement, and creating a space where both come together is my passion.</p>
         </div>
-        <div class="footer-col col-md-3 mb-3 mb-md-0">
-          <h4>Quick LInks</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="service-page.html">Services</a></li>
-            <li><a href="schedule-page.html">Schedule</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 footer-col mb-3 mb-md-0">
-          <h4>Contact Details</h4>
-          
-            <div class="contact-details d-flex">
-              <div class="contact-icon">
-                <i class="fa fa-home"></i>
-              </div>
-              <div class="contact-address">
-                <h5>Address Location</h5>
-                <p>1 Grafton Street, Dublin Ireland University.</p>
-              </div>
-            </div>
-            <div class="contact-details d-flex">
-              <div class="contact-icon">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="contact-address">
-                <h5>Phone Number</h5>
-                <p>+135 773 321 4442</p>
-              </div>
-            </div>
-            <div class="contact-details d-flex">
-              <div class="contact-icon">
-                <i class="fa fa-envelope"></i>
-              </div>
-              <div class="contact-address">
-                <h5>Mail Address</h5>
-                <p>demo@example.com</p>
-              </div>
-            </div>
-        </div>
-        <div class="footer-col col-md-3">
-          <h4>follow us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
+        <div class="col-12 text-center"><div class="hero-btn"><a href="schedule-page.html" class="btn mt-4">Schedule your session</a></div></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Testimonials -->
+<section class="our-testimonial py-5">
+  <div class="container py-4">
+    <div class="section-head text-center" data-aos="fade-up"><h2>Kind words from clients</h2></div>
+    <div class="row shadow mt-4" data-aos="fade-up">
+      <div class="col-lg-5 align-self-center text-center"><img class="img-fluid" src="images/YAELINMOTION-29.jpeg" alt="Yael with a client" /></div>
+      <div class="col-lg-7">
+        <div class="owl-carousel-1 owl-carousel owl-theme">
+          <div class="item"><div class="ps-lg-3">
+            <h3 class="pt-3">Overcoming pain and reclaiming strength</h3>
+            <p class="mt-3">Through working with Yael the last 2 years I have eliminated chronic back and knee pain entirely. You will not find anyone more conscientious and knowledgeable about how the body functions. I am so much stronger, with better flexibility and balance, and my endurance is what it was 20 years ago. I can highly recommend Yael to anyone who wants to work with the BEST. <strong>Karen</strong></p>
+          </div></div>
+          <div class="item"><div class="ps-lg-3">
+            <h3 class="pt-3">Elevating my fitness journey</h3>
+            <p class="mt-3">I am incredibly grateful to work with Yael, whose knowledge and patience have made a huge difference. She tailors each session to your needs, focusing on areas of improvement and staying mindful of limitations and injuries. Her encouragement has me looking forward to each workout. <strong>Haylea</strong></p>
+          </div></div>
         </div>
       </div>
-      <hr class="text-white">
-      </div>
-      <div class="container-fluid footer-bottom">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <p class="text-white">©Copyright - All Right Reserved.Designed <i class="fa fa-heart ms-1 me-1 text-danger"></i> by <a href="">The GardyGroup</a> </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!----- Footer  end ------>
+    </div>
+  </div>
+</section>
 
-    <!---- Bootstrap JS ---->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+<!-- FAQ -->
+<section class="faq py-5">
+  <div class="container py-4">
+    <div class="section-head text-center" data-aos="fade-up"><h2>Common questions</h2></div>
+    <div class="accordion mx-auto mt-4" id="faqList" style="max-width:760px">
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">I'm new to Pilates. Is that okay?</button></h3>
+        <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqList"><div class="accordion-body">Yes. Every session is scaled to your level, so you can start from zero.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">Can I train with an injury?</button></h3>
+        <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Tell Yael about it when you book. Sessions are adjusted around injuries and limitations.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">Do you teach during pregnancy?</button></h3>
+        <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Yes, prenatal and postnatal sessions are both offered.</div></div></div>
+    </div>
+  </div>
+</section>
 
-    <!----- owl carousel js for testimonial ----->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-      $(".owl-carousel-1").owlCarousel({
-        loop: true,
-        nav: false,
-        responsiveClass: true,
-        responsive: {
-          1024: {
-            items: 1,
-            loop: true,
-          },
-          768: {
-            items: 1,
-          },
-          425: {
-            items: 1,
-          },
-          320: {
-            items: 1,
-          },
-        },
-      });
-    </script>
+<!-- CTA -->
+<section class="cta-band text-center">
+  <div class="container" data-aos="fade-up">
+    <h2>Ready to feel strong in your movement?</h2>
+    <div class="hero-btn"><a href="schedule-page.html" class="btn mt-3">Book your first session</a></div>
+  </div>
+</section>
 
-    <!-- js for aos animation -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+<footer class="footer pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col col-md-4 mb-4"><a href="index.html"><img src="images/logo-yael.png" alt="Yael-In-Motion" width="140" class="logo-light mb-3"></a><p class="text-white-50">Pilates education designed for you.</p></div>
+      <div class="footer-col col-md-3 mb-4"><h4>Quick links</h4>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="service-page.html">Services</a></li><li><a href="schedule-page.html">Schedule</a></li><li><a href="contact-us.html">Contact Us</a></li></ul></div>
+      <div class="footer-col col-md-5 mb-4"><h4>Contact</h4>
+        <div class="contact-details d-flex"><div class="contact-icon"><i class="fa fa-home"></i></div><div class="contact-address"><h5>Address</h5><p>Add your studio address</p></div></div>
+        <div class="contact-details d-flex"><div class="contact-icon"><i class="fa fa-phone"></i></div><div class="contact-address"><h5>Phone</h5><p>Add your phone number</p></div></div>
+        <div class="contact-details d-flex"><div class="contact-icon"><i class="fa fa-envelope"></i></div><div class="contact-address"><h5>Email</h5><p>Add your email</p></div></div>
+        <div class="social-links mt-3"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></div></div>
+    </div>
+    <hr class="text-white">
+    <p class="footer-bottom text-center text-white-50 pb-3">&copy; Yael-In-Motion. All rights reserved. Designed by <a href="#">The GardyGroup</a></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>$(".owl-carousel-1").owlCarousel({loop:true,nav:false,items:1,autoplay:true,autoplayTimeout:7000,autoplayHoverPause:true});</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({once:true});</script>
+</body>
 </html>
